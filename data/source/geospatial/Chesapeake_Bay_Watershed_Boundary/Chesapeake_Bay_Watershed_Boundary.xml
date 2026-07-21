@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Chesapeake Bay Watershed Boundary</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This layer represents the boundary of the Chesapeake Bay watershed. The Chesapeake Bay is the largest estuary in the U.S. and supports roughly 3,600 species of plants and animals, including 348 species of finfish, 173 species of shellfish, and 2,700 species of plants. Nearly one million waterfowl winter on and near the bay – approximately one-third of the Atlantic Coast’s migratory population. The birds stop to feed and rest during their annual migration along the Atlantic Flyway.This boundary was extracted from the USGS Watershed Boundary Dataset using the hydrologic unit codes (HUCs) by the US Fish and Wildlife Service for use in the Chesapeake Watershed Investments for Landscape Defense Program, known as Chesapeake WILD. For more information on Chesapeake WILD visit https://www.fws.gov/program/chesapeake-wild. HUCs have two to eight digit numbers based on the four levels of classification in the hydrologic unit system. The Chesapeake Bay watershed is delineated in the HUC 4 (four digit) layer. For more information about hydrologic units visit https://water.usgs.gov/GIS/huc.html.</abstract>
+            <purpose>This layer represents the boundary of the Chesapeake Bay watershed. This boundary was extracted from the USGS Watershed Boundary Dataset using the Hydrologic Unit Code (HUC). </purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Chesapeake Bay</themekey>
+                <themekey>Watershed</themekey>
+                <themekey>Boundary</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Although these data and information have been processed successfully on a computer system at the USFWS, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. The USFWS shall not be liable for improper or incorrect use of the data and information described and/or contained herein. </useconst>
+        <datacred>USFWS, USGS</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
