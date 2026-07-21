@@ -31,11 +31,11 @@ pip install -r requirements.txt
  
 Note: some early-stage scripts (`src/toolbox/`, `src/scenario_build/`) reference the raw APEX scenario file tree, which isn't included here (see above). Those scripts document the folder structure they expect via their configuration blocks at the top of each file; running them requires either the full archive (available by request) or adapting the paths to the example data.
  
-## Data availability
+## data availability
  
 Derived datasets and analysis/plotting code are available in this repository, archived at Zenodo: [DOI to be added at submission].
 Raw APEX scenario input/output files (full region x BMP x crop x climate matrix) are available from the corresponding author upon request, and are to be delivered directly to the Chesapeake Bay Program as project stakeholder.
  
-## Citation
+## citation
  
 Citation information will be added on publication.
