@@ -8,11 +8,11 @@ Manuscript: in preparation for journal submission (link/DOI to be added on accep
 This repository contains the code, data, and derived results behind the paper's figures and tables. It does **not** contain the full APEX input/output archive (raw scenario files across all region x BMP x crop x climate regime combinations). A representative subset of raw APEX input/output files for one region/crop/BMP combination is included under 'data/example_apex_io/'.
 
 ## workflow
-1. **`src/toolbox/`** - functions that edit APEX input files (.SOL, .OPC, .SUB), build/extend spin-up periods, apply climate perturbations, and process raw weather data into APEX-ready `.dly`/`.hly`/`.WP1` files.
-2. **`src/scenario_build/`** - compiles discrete decadal climate runs into continuous 2021-2090 scenario files, grid-search parameter calibration, and the synthetic storm injection experiment.
-3. **`src/extraction/`** - reads raw APEX output (SAD, ACY, DHY files) and builds the derived analysis datasets: annual results, two storm datasets (discrete and paired historical-to-future), an operation-phase-based dataset, and the variance-based (Sobol) sensitivity samples.
-4. **`src/analysis/`** -- statistical tests (Mann-Kendall, Theil-Sen, Dunn's test, Spearman, bootstrap CIs) that produce statistical claims made in the text and compile SI tables.
-5. **`src/plotting/`** -- generates the main text and SI figures. `data/derived/` holds the output of stage 3 (the CSVs that stages 4 and 5 actually run on).
+1. **`src/toolbox/`** - functions that edit APEX input files (.SOL, .OPC, .SUB), build/extend spin-up periods, apply climate perturbations, and process raw weather data into APEX-ready `.dly`/`.hly`/`.WP1` files. Code associated with running a variance-based (Sobol) sensitivity analysis also lives here.
+2. **`src/scenario_build/`** - applies future climate to existing weather files, compiles discrete decadal climate runs into continuous 2021-2090 scenario files, grid-search parameter calibration, and the synthetic storm injection experiment.
+3. **`src/extraction/`** - reads raw APEX output (SAD, ACY, DHY files) and builds the derived analysis datasets: annual results, two storm datasets (discrete and paired historical-to-future), an operation-phase-based dataset, and the Sobol samples.
+4. **`src/analysis/`** - statistical tests (Mann-Kendall, Theil-Sen, Dunn's test, Spearman, bootstrap CIs) that produce statistical claims made in the text and compile SI tables.
+5. **`src/plotting/`** - generates the main text and SI figures. `data/derived/` holds the output of stage 3 (the CSVs that stages 4 and 5 actually run on).
 
 ## data conventions
  
