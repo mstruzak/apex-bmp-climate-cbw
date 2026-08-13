@@ -21,7 +21,7 @@ A few rules are applied consistently across the extraction and analysis scripts 
 - MA (manure incorporation) is differenced against a dedicated `ma-base` baseline; every other BMP uses the shared `base` baseline.
 - Rows with a crop failure (`YLDG + YLDF == 0`) are dropped, both for the row itself and its matched baseline.
 - CC (cover crop) scenario SAD files carry two rows per day (cash + cover crop) with identical field-level loads; these are deduplicated to one row per day before summing.
-- CC is only run for corn and soy; NT x alfalfa is not part of the study design.
+- CC is only run for corn and soy.
 
 ## setup
  
